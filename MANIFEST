@@ -9,3 +9,5 @@ MANIFEST.SKIP
 META.yml
 README
 t/01use.t
+Makefile.PL
+Build.PL
