@@ -1,0 +1,13 @@
+{
+          'build_requires' => {},
+          'conflicts' => {},
+          'requires' => {
+                          'Test::More' => 0,
+                          'HTML::Entities' => 0,
+                          'XML::RSS' => 0,
+                          'WWW::Search' => 0,
+                          'Bot::BasicBot::Pluggable' => '0.1',
+                          'LWP::Simple' => 0
+                        },
+          'recommends' => {}
+        }

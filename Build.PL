@@ -1,0 +1,22 @@
+use strict;
+use Module::Build;
+
+my $build = Module::Build
+  ->new( module_name   => "Bot::BasicBot::Pluggable::Module::Search",
+         license       => 'perl',
+         dist_version  => '0.8',
+         dist_author   => 'Simon Wistow <simon@thegestalt.org>',
+         dist_abstract => 'various search plugins for Bot::BasicBot::Pluggable',
+         requires      => {
+                          'Test::More'                     => 0,
+                          'Bot::BasicBot::Pluggable'       => '0.1',
+                          'WWW::Search'                    => 0,
+                          'XML::RSS'                       => 0,
+                          'HTML::Entities'                 => 0,
+                          'LWP::Simple'                    => 0,
+                        },
+         create_makefile_pl => 'traditional',
+       );
+
+$build->create_build_script;
+
