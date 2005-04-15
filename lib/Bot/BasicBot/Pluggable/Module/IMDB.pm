@@ -28,7 +28,7 @@ sub said {
 }
 
 sub help {
-    return "Commands: 'websters (for ) <word>'";
+    return "Commands: 'imdb (for ) <word>'";
 }
 
 1;

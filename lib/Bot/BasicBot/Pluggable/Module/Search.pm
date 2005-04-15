@@ -51,7 +51,7 @@ sub help {
 
 =head1 NAME
 
-Bot::BasicBot::Pluggable::Module::W3Search - web search interface
+Bot::BasicBot::Pluggable::Module::Search - web search interface
 
 =head1 SYNOPSIS
 
