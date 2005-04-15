@@ -4,9 +4,8 @@ use Module::Build;
 my $build = Module::Build
   ->new( module_name   => "Bot::BasicBot::Pluggable::Module::Search",
          license       => 'perl',
-         dist_version  => '0.96',
+         dist_version  => '0.97',
          dist_author   => 'Simon Wistow <simon@thegestalt.org>',
-         dist_abstract => 'various search plugins for Bot::BasicBot::Pluggable',
          requires      => {
                           'Test::More'                     => 0,
                           'Bot::BasicBot::Pluggable'       => '0.5',
