@@ -5,7 +5,6 @@ use Bot::BasicBot::Pluggable::Module;
 use base qw(Bot::BasicBot::Pluggable::Module);
 
 use WWW::Search;
-our $VERSION = '0.97';
 
 sub said { 
     my ($self, $mess, $pri) = @_;
