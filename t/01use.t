@@ -3,9 +3,8 @@ use warnings;
 use strict;
 use lib qw(./lib);
 
-use Test::More tests => 7;
+use Test::More tests => 6;
 
-use_ok('Bot::BasicBot::Pluggable::Module::Search');
 use_ok('Bot::BasicBot::Pluggable::Module::Foldoc');
 use_ok('Bot::BasicBot::Pluggable::Module::Hyperarchive');
 use_ok('Bot::BasicBot::Pluggable::Module::Foldoc');
