@@ -23,7 +23,7 @@ sub said {
     $key =~ s/^\s+//;
     $key =~ s/\W+/+/g;
 
-    return "$terms may be sought in foldoc at http://wombat.doc.ic.ac.uk/foldoc/foldoc.cgi?query=$key";
+    return "$terms may be sought in foldoc at http://foldoc.org/?$key";
 
 }
 
